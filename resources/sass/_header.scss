@@ -1,0 +1,82 @@
+.contenitore-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+        .logo{
+            img{
+                width: 100%;
+            }
+        }
+    .icons-top{
+        display: flex;
+        justify-content: flex-end;
+        a{
+            text-decoration: none;
+            margin: 20px;
+            color: black;
+            font-size: 25px;
+        }
+    }
+}
+.icons-bottom{
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    .icon-box{
+        padding-bottom: 5px;
+        border-bottom: 2px solid white;
+        color: gray;
+        &:hover{
+            border-bottom: 2px solid #1877F2;
+            .icon{
+                color: #1877F2;
+            }
+        }
+        .icon{
+            font-size: 25px;
+        }
+    }
+}
+.container-input{
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    margin-left: 5px;
+    border-bottom: 1px solid lightgrey;
+    .input-box{
+        input{
+            width: 100%;
+            border-radius: 10px;
+            border: 1px solid lightgrey;
+        }
+    }
+}
+.bottom-header{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    .box-bott-icon{
+        border-right: 1px solid lightgray;
+        text-align: center;
+        color: rgb(78, 78, 78);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:last-child{
+            border-right: none;
+        }
+        .icon{
+            font-size: 20px;
+            margin: 10px;
+        }
+        .icon-left{
+            color: rgb(228, 93, 93);
+        }
+        .icon-center{
+            color: rgb(69, 151, 69);
+        }
+        .icon-rigth{
+            color: indigo;
+        }
+    }
+}
