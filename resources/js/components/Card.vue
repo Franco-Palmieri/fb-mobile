@@ -13,7 +13,7 @@
                         </div>
                         <div><i class="fas fa-ellipsis-h icon"></i></div>
                     </div>
-                    <div class="post-content">
+                    <div class="post-content"> 
                         <div>{{body}}</div>
                     </div>
                     <div class="post-bottom-likes">
